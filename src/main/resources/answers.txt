@@ -1,0 +1,35 @@
+(reputation > 40)
+A
+reputation + 5
+
+(reputation > 80)
+A
+reputation + 5
+
+(reputation > 30)
+B
+reputation + 5
+
+(reputation > 40)
+D
+reputation + 5
+
+(reputation > 50)
+E
+reputation + 5
+
+(reputation > 30)
+F
+reputation + 5
+
+(reputation > 50)
+G
+reputation + 5
+
+(reputation > 20)
+H
+reputation + 5
+
+(reputation > 50)
+I
+reputation + 5
