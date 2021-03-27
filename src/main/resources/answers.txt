@@ -1,35 +1,81 @@
 (reputation > 40)
-A
+Дистанционно
 reputation + 5
 
 (reputation > 80)
-A
+Лично
 reputation + 5
 
 (reputation > 30)
-B
+Сделаете голосование и выберите наибольший вариант
 reputation + 5
+
+
 
 (reputation > 40)
-D
-reputation + 5
+Провести вводную лекцию по заказу и его условиям. Определиться с задачами и работой по проекту и разойтись.
+competence + 5
 
 (reputation > 50)
-E
-reputation + 5
+Провести тимбилдинг с командой. Уже после, обсудить базовые детали работ и запланировать второе собрание, на котором вы уже обсудите детали проекта подробно.
+leadership + 3   communications + 2
 
 (reputation > 30)
-F
-reputation + 5
+Спросить команду какие вопросы их интересуют и отталкиваясь от них и свободного времени вводить команду в курс дела
+communications + 5
+
+
 
 (reputation > 50)
-G
-reputation + 5
+Agile
+time - 3   leadership + 2   communications + 5   reputation + 1
 
 (reputation > 20)
-H
-reputation + 5
+Scrum
+time - 2   leadership + 2   communications + 3   reputation + 2
 
 (reputation > 50)
-I
+Kanban
+time - 10   leadership + 3   communications + 6   reputation + 2
+
+
+
+(reputation > 50)
+Финансовый штраф
+budget + 2   reputation + 3   leadership - 2
+
+(reputation > 20)
+Покупать торт
+budget - 5   reputation + 2   communications + 5   competence - 1
+
+(reputation > 50)
+Постараться повлиять на него
+reputation - 1   time - 10   leadership - 2
+
+
+
+(reputation > 50)
+Разделить оставшиеся задачи на подзадания и равномерно разделить на всех, кто свободен
+budget + 2   reputation + 3   leadership - 2
+
+(reputation > 20)
+Предупредить об этом заказчика и потребовать (попросить) еще время
+budget + 5   reputation + 2   communications + 5   competence - 1
+
+(reputation > 50)
+Заставить команду работать усерднее под угрозой санкций
+reputation - 1   time - 10   leadership - 2
+
+
+
+(reputation > 50)
+Бросить проект и расформировать команду
+reputation - 100
+
+(reputation > 20)
+Наехать на заказчика/команду за некомпетентность
+reputation - 100
+
+(reputation > 50)
+Узнать причины недовольства и исправить их
 reputation + 5
