@@ -17,9 +17,9 @@ public class Main {
         Tasker tasker = new Tasker("src\\main\\resources\\answers.txt",
                 "src\\main\\resources\\tasks.txt");
 
-        for (Task task : tasker.getTasks()) {
-            solving(task);
-        }
+        tasker.getTasks().forEach(Main::solving);
+        System.out.println(pm.getReputation() < 0 ?
+                "You failed the project!" : "You have successfully completed the project!");
     }
 
     private static void solving(Task task) {
